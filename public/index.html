@@ -4,13 +4,40 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hello Parcel Bundler</title>
+    <style>
+        html,
+        body {
+            margin: 0 auto;
+            padding: 0;
+            overflow: initial !important;
+        }
+
+        body {
+            width: 99vw;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            line-height: 1.46668;
+            font-weight: 400;
+            font-variant-ligatures: common-ligatures;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 
 <body>
     <div id="root">
         <!-- Your react app will be rendered here -->
     </div>
-    <script src="../src/index.jsx" type="module"></script>
+    <script src="../index.tsx" type="module"></script>
 </body>
 
 </html>

@@ -1,8 +1,10 @@
 {
   "name": "parcel-study",
   "version": "1.0.0",
-  "description": "",
+  "description": "React(tsx) app Setting with Parcel for studying many things in README.md",
   "source": "public/index.html",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "parcel -p 3000 --open",
     "watch": "parcel watch",
@@ -13,10 +15,33 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.9",
-    "parcel": "^2.4.1"
+    "@types/gravatar": "^1.8.3",
+    "@types/loadable__component": "^5.13.4",
+    "@types/node": "^17.0.23",
+    "@types/react": "^18.0.4",
+    "@types/react-custom-scrollbars": "^4.0.10",
+    "@types/react-dom": "^18.0.0",
+    "parcel": "^2.4.1",
+    "process": "^0.11.10",
+    "querystring-es3": "^0.2.1"
   },
   "dependencies": {
+    "@loadable/component": "^5.15.2",
+    "@types/react-mentions": "^4.1.6",
+    "@types/styled-components": "^5.1.25",
+    "axios": "^0.26.1",
+    "dayjs": "^1.11.0",
+    "gravatar": "^1.8.2",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^17.0.0",
+    "react-mentions": "^4.3.1",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-toastify": "^8.2.0",
+    "regexify-string": "^1.0.17",
+    "styled-components": "^5.3.5",
+    "swr": "^1.3.0",
+    "typescript": "^4.6.3"
   }
 }
